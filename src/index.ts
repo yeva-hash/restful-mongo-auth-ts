@@ -22,7 +22,7 @@ app.use('/', router())
 
 const server = http.createServer(app);
 
-const MONGO_URL = 'mongodb+srv://evasuslovaa:1q2w3e4r@cluster0.k31ohhb.mongodb.net/';
+const MONGO_URL = '';
 
 async function start() {
     try {
